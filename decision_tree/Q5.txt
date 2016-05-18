@@ -1,0 +1,10 @@
+Test results:
+
+politicians:
+error(train): 0.140939597315
+error(test): 0.156626506024
+education:
+error(train): 0.195
+error(test): 0.23
+
+My obeservation is that politicians are more accurate in both train and test data.

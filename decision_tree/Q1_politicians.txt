@@ -1,0 +1,20 @@
+Firstly I examined all data.
+
+    1. Export_south_africa:     Democratic: 17- 66+
+                                Republic:   6-  60+
+    2. Duty_free_exports:       Democratic: 57- 26+
+                                Republic:   33- 33+
+    3. Superfund_right_to_sue:  Democratic: 28- 55+
+                                Republic:   29- 37+
+    4. Immigration:             Democratic: 35- 48+
+                                Republic:   47- 19+
+    5. Mx_missile:              Democratic: 49- 34+
+                                Republic:   47- 19+
+    6. Aid_to_nicaraguan_contras:Democratic: 46- 37+
+                                Republic:   40- 26+
+    7. Anti_satellite_test_ban: Democratic: 40- 43+
+                                Republic:   28- 38+
+
+I think attributes that needed to be considered for classification are: Duty_free_exports
+and Superfund_right_to_sue. Because these attributes exist differences between two labelled
+data and therefore contains more useful information.

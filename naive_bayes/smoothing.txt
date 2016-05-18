@@ -1,0 +1,10 @@
+q   accuracy
+0   The accuracy is not available due to zero.
+0.1 0.8333
+0.5 0.8056
+1   0.8056
+1.5 0.8056
+
+I think with smoothing, we will not get zero if one of the word did not show in text_j.
+When q is very low, the smoothing effect is low. So the accuracy is higher.
+When q is higher, the smoothing effect is higher. We can see 0.5 -1.5 is worse than q = 0.1.

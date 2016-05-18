@@ -1,0 +1,11 @@
+According to my observation, when N = 0 the accuracy is 0.8056
+
+When we apply N = 10, the accuracy is 0.8056 which is good.
+
+When N becomes larger, for example N = 100, the accuracy increases to 0.8611.
+
+When N becomes very very large, for example N = 20000, the accuracy decreases again.
+
+
+So this shows that removing stopwords can increase the accuracy. We should choose N from 10 - 100.
+If we choose to remove too few or too many stopwords, the accuracy decreases.

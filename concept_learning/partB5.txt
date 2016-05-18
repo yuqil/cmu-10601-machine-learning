@@ -1,0 +1,14 @@
+I think list-then-eliminate algorithm does not work very well in this question. 
+
+Since every attribute has binary values, every time a training data will eliminate half of the remaining version space. Though it works perfectly with training data, we can see that it cannot predict the new development data(both low value and high value are the same). 
+
+So I think list-then-eliminate has following drawbacks:
+
+1. We need to know every input’s outcome to eliminate all wrong concepts
+To finally get the version space, we at least need training data set of input size. Otherwise it would not impossible for us to eliminate enough concept and predict test data’s output.
+
+2. Algorithm cannot tolerate anomaly data
+For example if there are two conflicting data(anomaly data), it will eliminate all concept in the concept space.
+
+3. The concept space (input size) can not be very large. 
+The concept space is exponential function of input size. So we can only process limited concept space. Otherwise it would be too slow to run.

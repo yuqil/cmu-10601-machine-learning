@@ -1,0 +1,7 @@
+I think the decision tree is going to work for politician dataset.
+Because it is a discrete-valued functions that we need to learn. Since
+the decision tree does not have hard bias, it basically can represent
+any problem. So I think decision tree can be used to learn it.
+
+Same reason for education dataset. Both the input and output is discrete
+values. Therefore it is suitable for decision tree.

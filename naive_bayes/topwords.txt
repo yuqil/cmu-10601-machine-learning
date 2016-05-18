@@ -1,0 +1,4 @@
+The two lists look similar.
+There are many overlapping words such as "the", "to", "of", "and" and so on.
+
+These words are almost preposition which is essential to grammar but without real meanings.

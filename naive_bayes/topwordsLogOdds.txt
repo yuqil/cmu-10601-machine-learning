@@ -1,0 +1,10 @@
+What kind of words did you find?
+I found very meaningful word that can distinguish the two parties. These are very unique terms.
+
+Are there any over- lapping words between the two lists?
+No. There are no overlapping words between the lists.
+
+How are these words different from what you found with top- words.py / topwords.java?
+In top-words.py we find very common words that appear in both party's blogs.
+Here we find words specific to each parties. That is to say liberty party would use these but democratic people hardly
+uses these words.
